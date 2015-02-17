@@ -1,0 +1,6 @@
+Wirtualne hosty na Androidzie
+Skopiować /etc/hosts np. do katalogu domowego.
+Zmienić wszystkie 127.0.0.1 na 10.0.2.2
+
+adb remount
+adb push /home/user/hosts /system/etc/
